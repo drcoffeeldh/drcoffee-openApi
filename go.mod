@@ -1,0 +1,1 @@
+module openapi-sdk-go
