@@ -3,7 +3,7 @@ package client
 import (
 	"encoding/base64"
 	"fmt"
-	"openapi-sdk-go/utils"
+	"github.com/drcoffeeldh/drcoffee-openApi/utils"
 )
 
 func GenerateSignature(secret, method, uri, clientID, timestamp, body string, queryParams map[string][]string, token string) (string, error) {
