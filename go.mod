@@ -1,1 +1,1 @@
-module openapi-sdk-go
+module github.com/drcoffeeldh/drcoffee-openApi
