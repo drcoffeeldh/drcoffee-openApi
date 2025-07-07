@@ -50,7 +50,7 @@ func BuildCanonicalHeaders(headers map[string]string, token string) string {
 		headerParts = append(headerParts, fmt.Sprintf("%s:%s", key, headers[key]))
 	}
 	if token != "" {
-		headerParts = append(headerParts, fmt.Sprintf("%s:%s", TokenHeader, headers[token]))
+		headerParts = append(headerParts, fmt.Sprintf("%s:%s", TokenHeader, token))
 	}
 	return strings.Join(headerParts, "\n")
 }
